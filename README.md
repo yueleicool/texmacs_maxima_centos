@@ -1,7 +1,7 @@
 # texmacs_maxima_centos
 texmacs_maxima_centos
 搜索texmacs maxima软件如下：
-yum search texmacs
+yum search texmacs <br>
 yum search maxima
 
 由于切换了centos源之后校验文件不正确提示信息如下
