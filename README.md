@@ -14,3 +14,8 @@ GPG key retrieval failed: [Errno 14] curl#37 - "Couldn't open file /etc/pki/rpm-
 解决方案如下所示<br>
 yum install --nogpgcheck package_need_to_instal
 
+安装centos7 中epel源的方法参考如下链接:
+===========================================================================================================================
+国内yum源的安装(163，阿里云，epel)
+https://www.cnblogs.com/imweihao/p/7357484.html
+
