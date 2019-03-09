@@ -1,0 +1,31 @@
+centos7替换阿里网易源(epel源)
+
+# 	cd /etc/yum.repos.d			
+#	cp CentOS-Base.repo CentOS-Base.repo_bak		#备份
+#	wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo 	#下载阿里源
+
+#	wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-Base-163.repo 	#下载网易源
+
+
+#	yum clean all		#清除系统所有yum源
+
+#	yum makecache		#生成yum缓存
+
+#	yum list | grep epel-release.noarch
+#	yum install epel-release.noarch			#安装epel源
+
+# 	wget -O /etc/yum.repos.d/epel-7.repo http://mirrors.aliyun.com/repo/epel-7.repo    # 下载阿里开源镜像的epel源文件
+
+#	yum clean all		#清除系统所有yum源
+#	yum makecache		#生成yum缓存
+
+
+
+
+# 	yum repolist enabled		#查看系统可用的yum源
+#	yum repolist all 
+--------------------- 
+作者：艾小米 
+来源：CSDN 
+原文：https://blog.csdn.net/mier9042/article/details/80407361 
+版权声明：本文为博主原创文章，转载请附上博文链接！
