@@ -1,0 +1,2 @@
+# texmacs_maxima_centos
+texmacs_maxima_centos
