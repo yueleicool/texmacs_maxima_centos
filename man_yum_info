@@ -1,0 +1,67 @@
+libcurl.<br>
+  系统:centos 5.5<br>
+1.查看软件包的依赖信息<br>
+yum deplist libcurl<br>
+
+使用yum deplist来查看libcurl依赖,当然也可以使用<br>
+rpm -qf /usr/lib/libcurl.so<br>
+curl-devel-7.15.5-15.el5<br>
+
+2.查看那些软件依赖libcurl<br>
+yum search libcurl<br>
+
+ps:yum命令详解<br>
+
+yum check-update 检查可更新的所有软件包<br>
+
+yum update 下载更新系统已安装的所有软件包<br>
+
+yum upgrade 大规模的版本升级,与yum update不同的是,连旧的淘汰的包也升级<br>
+
+yum install 安装新软件包<br>
+
+yum update 更新指定的软件包<br>
+
+yum remove 卸载指定的软件包<br>
+
+yum groupinstall 安装指定软件组中的软件包<br>
+
+yum groupupdate 更新指定软件组中的软件包<br>
+
+yum groupremove 卸载指定软件组中的软件包<br>
+
+yum grouplist 查看系统中已经安装的和可用的软件组<br>
+
+yum list 列出资源库中所有可以安装或更新以及已经安装的rpm包<br>
+
+yum list 列出资源库中与正则表达式匹配的可以安装或更新以及已经安装的rpm包<br>
+
+yum list available 列出资源库中所有可以安装的rpm包<br>
+
+yum list available 列出资源库中与正则表达式匹配的所有可以安装的rpm包<br>
+
+yum list updates 列出资源库中所有可以更新的rpm包<br>
+
+yum list updates 列出资源库中与正则表达式匹配的所有可以更新的rpm包<br>
+
+yum list installed 列出资源库中所有已经安装的rpm包<br>
+
+yum list installed 列出资源库中与正则表达式匹配的所有已经安装的rpm包<br>
+
+yum list extras 列出已经安装的但是不包含在资源库中的rpm包<br>
+
+yum list extras 列出与正则表达式匹配的已经安装的但是不包含在资源库中的rpm包<br>
+
+yum list recent 列出最近被添加到资源库中的软件包<br>
+
+yum search 检测所有可用的软件的名称、描述、概述和已列出的维护者，查找与正则表达式匹配的值<br>
+
+yum provides 检测软件包中包含的文件以及软件提供的功能，查找与正则表达式匹配的值<br>
+
+yum clean headers 清除缓存中的rpm头文件<br>
+
+yum clean packages 清除缓存中rpm包文件<br>
+
+yum clean all 清除缓存中的rpm头文件和包文件<br>
+
+yum deplist 显示软件包的依赖信息<br>
